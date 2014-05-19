@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Default</key>
+			<string>Node</string>
+			<key>Description</key>
+			<string>What class to cocos2d-x subclass in the new file</string>
+			<key>Identifier</key>
+			<string>cocos2DX3.0Subclass</string>
+			<key>Name</key>
+			<string>cocos2d-x Subclass of</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>combo</string>
+			<key>Values</key>
+			<array>
+				<string>Node</string>
+				<string>Layer</string>
+			</array>
+		</dict>
+	</array>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.c-plus-plus-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
+	<key>Description</key>
+	<string>An C++ class, with implementation and header files.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.cpp</string>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>Summary</key>
+	<string>An C++ class with a header for Cocos2d-x</string>
+</dict>
+</plist>
